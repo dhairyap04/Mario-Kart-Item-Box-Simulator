@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+	<div id='content'>
+		<!-- header -->
+		<h1>Mario Kart Item Simulator</h1>
+		<hr>
+		<h2>Good Luck!</h2>
+
+		<table>
+
+			<!-- Current Place, Item box, and Totals Section -->
+			<tr>
+				<td>
+					<h3>Current Place</h3>
+					<p id='place'>12</p>
+				</td>
+				<td><img id='item-box' src="img/itembox.png"  width="150px">
+          <p>Click the box to receive an item!</p>
+          </td>
+          <td>
+            <h3>Totals</h3>
+            <p>Bananas: <span id='banana-total'>0</span></p>
+            <p>Green Shells: <span id='green-total'>0</span></p>
+            <p>Mushrooms: <span id='mushroom-total'>0</span></p>
+            <p>Red Shells: <span id='red-total'>0</span></p>
+            <p>Bullet Bills: <span id='bullet-total'>0</span></p>
+            <p>Starman: <span id='star-total'>0</span></p>
+          </td>
+        </tr>
+
+        <!-- Use item & roll multiple Section -->
+        <tr>
+          <td>
+            <h3>Use Item</h3>
+            <input id='use-item'>
+            <p id='use-msg'>Enter an item to advance in the game and win!</p>
+          </td>
+          <td class='black'>
+            <button id="reset-btn">Reset</button>
+          </td>
+          <td>
+            <h3>Item Stats</h3>
+            <input id='stat-item'>
+            <p id='stat-msg'>Enter an item to receive your stats!</p>
+          </td>
+        </tr>
+
+        <!-- Inventory Section -->
+        <tr>
+          <td colspan='3'>
+            <h3>Item History</h3>
+            <p id="inventory"></p>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

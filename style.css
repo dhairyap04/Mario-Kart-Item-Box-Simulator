@@ -1,0 +1,48 @@
+body {
+    background: url('img/mariokartbg.jpg');
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+  }
+  
+  #content {
+    width: 700px;
+    margin: auto;
+    background: rgba(255,255,255,0.8);
+    padding: 20px 50px;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  #place {
+    font-size: 80px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  td {
+    border: 1px solid black;
+  }
+  
+  .black {
+    background: black;
+    color: white;
+  }
+  
+  .black button {
+    padding: 10px 15px;
+    background: lightseagreen;
+    font-family: 'Grandstander', cursive;
+    cursor: pointer;
+  }
+  
+  #inventory img {
+    width: 30px;
+  }
+  
+  #item-box {
+    cursor: pointer;
+  }
